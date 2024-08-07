@@ -12,7 +12,7 @@ describe("sum", () => {
         pid: "1",
       },
     ];
-    const tree = convertListToTree(list)
+    const tree = convertListToTree(list);
     expect(tree[0]["children"][0]["id"]).toEqual("1-1");
   });
 });
