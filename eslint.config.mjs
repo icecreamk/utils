@@ -8,7 +8,13 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   {
-    ignores: ["rollup.config.js", "lib/*", "coverage/*", ".prettierrc.js"],
+    ignores: [
+      "rollup.config.js",
+      "lib/*",
+      "coverage/*",
+      ".prettierrc.js",
+      "commitlint.config.js",
+    ],
   },
   {
     rules: {
