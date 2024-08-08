@@ -1,6 +1,6 @@
 import { convertListToTree } from "../index";
 
-describe("sum", () => {
+describe("convertListToTree.test", () => {
   it("should work", () => {
     const list = [
       {
