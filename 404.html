@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>fun-utils</title><meta name="description" content="first vuepress">
+    <link rel="preload" href="/utils/assets/style-C5Kr01Ct.css" as="style"><link rel="stylesheet" href="/utils/assets/style-C5Kr01Ct.css">
+    <link rel="modulepreload" href="/utils/assets/app-CEKMcJX4.js"><link rel="modulepreload" href="/utils/assets/404.html-aitiIad2.js">
+    <link rel="prefetch" href="/utils/assets/index.html-D8lpH_Es.js" as="script"><link rel="prefetch" href="/utils/assets/convertListToTree.html-BtJkRVi0.js" as="script"><link rel="prefetch" href="/utils/assets/sum.html-LRbRy2Na.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" data-v-36ba231a><main class="page" data-v-36ba231a><div class="theme-default-content" data-v-36ba231a><h1 data-v-36ba231a>404</h1><blockquote data-v-36ba231a>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/utils/" data-v-36ba231a>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/utils/assets/app-CEKMcJX4.js" defer></script>
+  </body>
+</html>
